@@ -4,7 +4,7 @@ void main()
 {
   runApp(new MaterialApp(
     home:new gui(),
-    title: "hello",
+    title: "Home",
   ));
 
 }
