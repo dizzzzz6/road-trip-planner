@@ -4,20 +4,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class gui extends StatelessWidget {
-  final TapGestureRecognizer __gestureRecognizer = TapGestureRecognizer()
-    ..onTap = () {
-      debugPrint("hehehe");
-    };
-
-  @override
-  Widget build(BuildContext context) {
-    OnclickPrint() {
-      print("hey you");
-    }
-
-    OnclickPrint2() {
-      print("hey yodqdqdqdu");
-    }
 
     List<String> locations = ['Europe', 'America'];
     return new Scaffold(
